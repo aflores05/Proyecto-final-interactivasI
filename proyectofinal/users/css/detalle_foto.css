@@ -1,0 +1,445 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    font-family: Bahnschrift;
+    background-color: #e3dad5;
+}
+
+header{
+    background-color: white;
+}
+
+footer{
+    background-color: white;
+    padding: 0.3em 0em 0.5em 0em;
+}
+
+.botonH{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    color: white;
+  }
+  
+  .boton{
+    font-size:10px;
+    text-decoration: none;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:black;
+    background:#e3dad5;
+    border: 0em;
+    width:190px;
+    height:30px;
+    text-decoration: underline;
+   }
+
+   .boton:hover{
+    color:white;
+    background: black;
+    text-decoration: none;
+   }  
+
+  .menu{
+    display: none;
+  
+  }
+  .menu.is-active{
+    display:block;
+  
+  }
+
+.logo-up{
+    margin: 0.5em 1em;
+    width: 10%;
+    position: left;
+}
+
+.btn{
+    opacity: 0%;
+}
+
+.tools{
+    width: 5%;
+    display: inline;
+    padding: 1em 0em;
+    margin: 0.3em;
+    float: right;
+}
+
+.selected-pic{
+    margin: 1em 0em 0em 1.3em;
+    width: 90%;
+}
+
+.foto-name{
+    margin: 0.5em 1.7em;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.details{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0.5em 2em;
+}
+
+.descripcion{
+    font-weight: 400;
+    font-size: 10px;
+    margin: 1em 2.4em;
+}
+
+.details-sections{
+    margin: 0em 1em;
+    padding: 0;
+    float:left;
+}
+
+.details-parts{
+    display: inline-block;
+    margin: 0em 0.3em;
+    
+}
+
+.Text-link{
+    text-decoration: none;
+    color: black;
+}
+
+.Text-link:hover{
+    color: #fff;
+    border-bottom: .3em solid white;
+}
+
+hr{
+    width: 23.4em;
+    height: 2px;
+    border:none;
+    background: black;
+    margin: 0em;
+    padding: 0em;
+}
+
+/*  columnas  */
+
+.photos{
+    background-color: #e3dad5;
+}
+.secondary-photos-left{
+    margin: 0.5em 1em;
+    width: 85%;
+    position: left;
+}
+
+.secondary-photos-rigth{
+    margin: 0.5em 0.8em;
+    width: 85%;
+    position: left;
+}
+
+.row{
+    width: 100%;
+}
+
+.col{
+    background-color: #e3dad5;
+    width: 50%;
+    float: left;
+}
+
+
+/*  Footer  */
+
+.footer-text{
+    margin: 1em 0em 0em -1.5em;
+}
+
+.text-Footer{
+    text-align: center;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration-line: none;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo-down{
+    padding: 0em 0.5em 0em 0em;
+    margin: -0.5em 0em 0em 0em;
+    width: 30%;
+    float: right;
+}
+
+.bottom-nav-item{
+    display: inline;
+    margin: 0.5em 0.3em;     
+    text-decoration: none;
+}
+
+.button-social-media{
+    margin: 0.5em 0em 0em -1.5em;
+}
+
+.footer-social-media{
+    color: black; 
+}
+
+/*tablet*/
+@media (min-width: 600px){
+
+    
+    header{
+        height: 7em;
+    }
+
+    .btn{
+        display: block;
+        font-size: 0.6em;
+        width: 8em;
+        padding: 1em;
+        margin: -3em 2em 3em 68em;
+        border-radius:0.5em;
+        border: none;
+        text-align: center;
+        background: black;
+        color: #fff;
+        text-decoration: none;
+        opacity: 100%;
+    }
+    
+    .logo-up{
+        position: relative;
+        left: 0.3em;
+        top: 0.3em;
+    }
+
+    .tools{
+        position: relative;
+        right: 3em;
+        top: 1em;
+        margin: 0em 0em 0em 2em;
+    }
+
+    .selected-pic{
+        margin: 1em 0em 0em 1.3em;
+        width: 50%;
+    }
+
+    .foto-name{
+        margin: -17.5em 1.7em 19em 24.6em;
+        font-weight: 1000;
+        font-size: 17px;
+    }
+
+    .details{
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0em 2em 0.5em 35em;
+    }
+
+    #details-1{
+        margin: -26em 2em 0.5em 35em;
+    }
+
+    .descripcion{ 
+        font-size: 1em;
+        margin: 0em 3em 6em 26.3em;
+    }
+
+    hr{
+        width: 50em;
+        height: 3px;
+        border:none;
+        background: black;
+    }
+
+    .details-parts{
+        margin: 0em 0em 0em 1.3em;
+    }
+
+    .details-sections{
+        font-size: 1em;
+    }
+
+    .secondary-photos-left{
+        margin: 0.5em 1em;
+        width: 85%;
+        position: relative;
+        left: 1.3em;
+    }
+    
+    .secondary-photos-rigth{
+        margin: 0.5em 0.8em;
+        width: 85%;
+        position: relative;
+        left: 0.5em;
+    }
+
+    footer{
+        background-color: white;
+        padding: 1em 0em;
+    }
+
+    .logo-down{
+        position: relative;
+        right: 0.3em;
+        bottom: 0.3em;
+    }
+
+
+    .footer-text{
+        position: relative;
+        top: 2em;
+    }
+    
+    .button-social-media{
+        margin: 2em 0em 0em 0em;
+        font-size: 1.5em;
+    }
+    
+}
+
+/* PC */
+@media (min-width: 992px){
+
+    header{
+        height: 5em;
+    }
+
+    .btn{
+        display: block;
+        width: 8em;
+        padding: 1em;
+        margin: 0.5em 2em 0.5em 126.3em;
+        border-radius:0.5em;
+        border: none;
+        text-align: center;
+        background: black;
+        color: #fff;
+        text-decoration: none;
+        opacity: 100%;
+    }
+
+    .logo-up{
+        position: relative;
+        top: 0.3em;
+        height: 3em;
+        width: 8em;
+    }
+
+    .tools{
+        position: relative;
+        right: 3em;
+        top: 1em;
+        height: 1.6em;
+        width: 1.8em;
+        margin: 0em 0em 0em 2em;
+    }
+
+
+    .selected-pic{
+        width: 40%;
+        position: relative;
+        left: 3em;
+        top: 4em;
+        
+    }
+
+    .foto-name{
+        font-size: 2em;
+        margin: -13.8em 0em 13.8em 26.2em;
+    }
+
+
+    .details{
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0em 2em 0.5em 70em;
+    }
+
+    #details-1{
+        margin: -35em 2em 0.5em 70em;
+    }
+
+    .descripcion{ 
+        font-size: 1.2em;
+        margin: 0em 3em 19em 43.7em;
+    }
+
+    hr{
+        width: 116.3em;
+        height: 3px;
+        border:none;
+        background: black;
+        margin: 1em 0em;
+    }
+
+    .details-sections{
+        font-size: 1.5em;
+        margin: 0em 0em 0em 1.8em;
+    }
+
+    .details-parts{
+        margin: 0em 1em;
+    }
+
+    .row{
+        width: 100%;
+    }
+    
+    .col{
+        background-color: #e3dad5;
+        width: 50%;
+        float: left;
+    }
+
+    .secondary-photos-left{
+        margin: 1em 0.5em;
+        width: 90%;
+        position: relative;
+        left: 4em;
+    }
+    
+    .secondary-photos-rigth{
+        margin: 1em 0.5em;
+        width: 90%;
+        position: relative;
+        left: 1em;
+    }
+
+    footer{
+        background-color: white;
+        padding: 1em 0em;
+    }
+
+    .logo-down{
+        position: relative;
+        right: 1em;
+        bottom: 0em;
+        height: 4em;
+        width: 9em;
+    }
+
+
+    .footer-text{
+        position: relative;
+        margin: 0em 0em 0em 52em;
+        padding: 0em;
+        top: 1.5em;
+        left: 1em;
+    }
+    
+    .button-social-media{
+        margin: 2em 0em 0em 0em;
+        font-size: 1.5em;
+        position: relative;
+        top: -0.5em;
+        left: 1em;
+    }
+
+
+}

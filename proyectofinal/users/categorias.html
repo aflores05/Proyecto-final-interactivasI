@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/stylecategorias.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <title>SEE & SHOOT</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="top-bar">
+
+            <a class="logo" href="#">
+                <img class="logo-img" src="./img/logo1.webp" alt="Logo">
+            </a>
+
+            
+        </nav>
+        <section>
+            <h1 class="intro-title">CATEGORIAS</h1>
+        </section>
+    </header>
+    <!-- header -->
+    
+    <!-- pictures -->
+
+    <section class="pictures">
+        <div class="fotos">
+            <ul class="row">
+
+                <li class='col'>
+                    <div class='container-photo'>
+                    <a href="naturaleza.php"><img class="photo" src="./img/bosque.jpeg" alt="seeandshoot"></a>
+                        <li><a class="info"  href="naturaleza.php">NATURALEZA </a></li>
+                    </div>
+                </li>
+
+                <li class='col'>
+                    <div class='container-photo'>
+                        <a href="paisaje.php"><img class="photo" src="./img/paisajes.jpg" alt="seeandshoot"></a>
+                        <li><a class="info"  href="paisaje.php">PAISAJES </a></li>
+                    </div>
+                </li>
+
+                <li class='col'>
+                    <div class='container-photo'>
+                        <a href="aerea.php"><img class="photo" src="./img/aereas.jpg" alt="seeandshoot"></a>
+                        <li><a class="info"  href="aerea.php">AEREAS </a></li>
+                    </div>
+                </li>
+
+                <li class='col'>
+                    <div class='container-photo'>
+                        <a href="personas.php"><img class="photo" src="./img/personas.jpg" alt="seeandshoot"></a>
+                        <li><a class="info"  href="personas.php">PERSONAS </a></li>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <!-- pictures -->
+
+    <!-- footer -->
+    <footer>
+        <section>
+            <hr>
+            <nav>
+                <ul class="text-nav">
+                    <li class="bottom-nav-text"><a class="footer-link" href="#">INFORMACION</a></li>
+                    <li class="bottom-nav-text"><a class="footer-link" href="#">CONTACTENOS</a></li>
+                    <li class="bottom-nav-text"><a class="footer-link" href="#">PRIVACIDAD</a></li>
+                </ul>
+            </nav>
+
+            <nav >
+                <ul class="bottom-nav">
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+    <!-- footer -->
+
+
+            <!-- menu hamburguesa -->
+            <section>
+                <div class="botonH">
+                    <button class="hamburger hamburger--collapse" type="button" onclick="menu()">
+                        <span class="hamburger-box" >
+                          <span class="hamburger-inner" ></span>
+                        </span>
+                      </button>
+                    
+                      <div class="menu">
+                        <ul>
+                          <li>
+                            <input type="button" value="Inicio" onclick="location.href='./index.html'" class="boton"> 
+                          </li>
+                          
+                          <li>
+                            <input type="button" value="Inicio Sesion" onclick="location.href='./iniciosesion.php'" class="boton" > 
+                          </li>
+    
+                          <li>
+                            <input type="button" value="Registro" onclick="location.href='./registro.php'" class="boton" > 
+                          </li>
+    
+                          <li>
+                            <input type="button" value="Recuperar contrasena" onclick="location.href='./recuperarContrasena.php'" class="boton">  
+                          </li>
+                          
+                          <li>
+                            <input type="button" value="Perfil" onclick="location.href='./profile.php'" class="boton" >   
+                          </li>
+                    
+                          <li>
+                            <input type="button" value="Galeria" onclick="location.href='./categorias.html'" class="boton">  
+                          </li>
+    
+                          <li>
+                            <input type="button" value="Subir imagen" onclick="location.href='./upload.php'" class="boton">  
+                          </li>
+
+                          <li>
+                            <input type="button" value="Lista Participantes" onclick="location.href='./lista_participantes.php'" class="boton">  
+                          </li>
+    
+                          <li>
+                            <input type="button" value="Log out" onclick="location.href='./logout.php'" class="boton">  
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    </section>
+             <!-- menu hamburguesa -->
+
+        <script src="js/menu.js"></script>
+
+</body>
+</html>

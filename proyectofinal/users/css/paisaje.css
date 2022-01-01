@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+    background: #dfd9d4;
+}
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+
+.img-gallery{
+    object-fit: contain;
+    width: 100%;
+    height: 189px;
+}
+
+
+/*fotos que se muestran*/
+pictures{
+    margin: 1em;
+    padding: 1em;
+}
+.fotos{
+    margin: 0em;
+    padding: 0em;
+    background: #e3dad5;;
+}
+.row{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+    margin: 0 1em;
+}
+.container-photo{
+    padding: 0.1em 1em;
+    margin: 1em 1em;
+    background: #e3dad5;
+}
+.photo{
+    width: 275px;
+    height: 225px;
+    object-fit: contain;
+}
+.info{
+    padding: 0;
+    margin: .5em 0 0 0;
+}
+
+
+
+
+
+.boton{
+    font-size:10px;
+    text-decoration: none;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:black;
+    background:#e3dad5;
+    border: 0em;
+    width:190px;
+    height:30px;
+    text-decoration: underline;
+   }
+
+   .boton:hover{
+    color:white;
+    background: black;
+    text-decoration: none;
+   }  
+
+.botonH{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    color: white;
+  }
+  
+  .menu{
+    display: none;
+  
+  }
+  .menu.is-active{
+    display:block;
+  
+  }
+
+/*
+CLASSES
+*/
+
+/* NAV */
+.top-bar{
+    width: 100%;
+    padding: 1.5em 0 3em;
+    margin:0;
+    background: #F7F7F7;
+}
+.logo{
+    float: left;
+    margin: -.9em 0 0 3em;
+}
+.logo-resize{
+    margin:0
+}
+.top-nav{
+    margin: 0 1.4em;
+    padding: 0;
+    float: right;
+}
+.top-nav-item{
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 1.1em;
+}
+.top-nav-link{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: .8em;
+}
+.top-nav-link:hover{
+    border-bottom: .2em solid #000000;
+}
+.intro-title{
+    padding: 1em 2em;
+    margin: 3em 19em;
+    color: #fff;
+    background: #000000;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.footer-section{
+    width: 100%;
+    padding: 11em 0;
+    background: url(../img/2.webp);
+    background-size: cover;
+    background-position: center bottom;
+}
+.bottom-nav{
+    padding: 0;
+    margin: 0 38.8em 4em;
+}
+.text-nav{
+    position: relative;
+    top: 1.5em;
+    margin: 0 32.5em;
+    padding: 0;
+}
+.bottom-nav-text{
+    display: inline-block;
+    margin: 3em 1.5em;
+    font-size: 1.2em;
+}
+.bottom-nav-item{
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 1.8em;
+}
+.footer-link{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+hr{
+    margin: 5em 6em 0em 6em;
+    padding: 0em;
+    width: 90%;
+    height: 3px;
+    border: none;
+    background: black;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+
+}
+    
+    /* Medium devices (tablets, less than 992px) */
+@media (min-width: 600px) and (max-width: 800px) {
+ 
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992.98px) {
+    
+}

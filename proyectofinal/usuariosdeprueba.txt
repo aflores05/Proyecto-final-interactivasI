@@ -1,0 +1,23 @@
+Usuario de prueba #1
+username = jaime
+password = 123
+
+Usuario de prueba #2
+username = carlos
+password = 123
+
+Usuario de prueba #3
+username = delia
+password = 123
+
+Usuario de prueba #4
+username = cristobal
+password = 123
+
+Usuario de prueba #5
+username = 1
+password = 1
+
+Usuario de administrador
+username = admin
+password = 123

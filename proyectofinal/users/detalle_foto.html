@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/detalle_foto.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    
+    <title>Detalle Foto</title>
+</head>
+<body>
+    <!--Parte de arribaw-->
+    <header>
+
+        <a href="#"><img class="logo-up" src="img/logo.webp" alt="seeandshoot"></a>
+        <a href="#"><img class="tools" src="img/buscar.webp" alt="buscar"></a>
+
+    </header>
+
+    <div>
+
+        <img class="selected-pic" src="img/imagen-4.webp" alt="seeandshoot">
+
+    </div>
+
+    <input class="btn" type="submit" value="Enviar magen">
+
+    <!--Informacion perfil-->
+    <div>
+        <div class="foto-name"> Nombre de Foto </div> 
+
+        <h1 class="details" id="details-1"> 
+            Tomada por: marocos jaime
+        </h1>
+
+        <h2 class="details" id="details-2"> 
+            Categoria: naturaleza
+        </h2>
+
+        <h3 class="descripcion"> 
+            Describir es explicar, de manera detallada y ordenada, cómo son
+            las personas, animales, lugares, objetos, etc. La descripción
+            sirve sobre todo para ambientar la acción y crear una que haga
+            más creíbles los hechos que se narran
+        </h3>
+    </div>
+
+    <!--Partes perfil-->
+    <div>
+        <ul class="details-sections">
+        <li class="details-parts"><a class="Text-link a1" href="#">Fotos de la misma categoria</a></li>
+        </ul>
+        <hr>
+    </div>
+
+    <!--fotos top 10-->
+    <div class="photos">
+        <form action="photos-form">
+
+            <div class="row">
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-left" src="img/img01.webp" alt="image dont found"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-rigth" src="img/img02.webp" alt="image dont found"></a>
+                </div>
+            </div>  
+
+            <div class="row">
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-left" src="img/img01.webp" alt="image dont found"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-rigth" src="img/img02.webp" alt="image dont found"></a>
+                </div>
+            </div>  
+
+            <div class="row">
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-left" src="img/img01.webp" alt="image dont found"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-rigth" src="img/img02.webp" alt="image dont found"></a>
+                </div>
+            </div>  
+
+            <div class="row">
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-left" src="img/img01.webp" alt="image dont found"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-rigth" src="img/img02.webp" alt="image dont found"></a>
+                </div>
+            </div>  
+
+            <div class="row">
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-left" src="img/img01.webp" alt="image dont found"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="secondary-photos-rigth" src="img/img02.webp" alt="image dont found"></a>
+                </div>
+            </div>  
+        </form>
+    </div>
+
+        <!-- menu hamburguesa -->
+        <section>
+            <div class="botonH">
+                <button class="hamburger hamburger--collapse" type="button" onclick="menu()">
+                    <span class="hamburger-box" >
+                      <span class="hamburger-inner" ></span>
+                    </span>
+                  </button>
+                
+                  <div class="menu">
+                    <ul>
+                      <li>
+                        <input type="button" value="Inicio" onclick="location.href='./index.html'" class="boton"> 
+                      </li>
+                      
+                      <li>
+                        <input type="button" value="Inicio Sesion" onclick="location.href='./iniciosesion.php'" class="boton" > 
+                      </li>
+
+                      <li>
+                        <input type="button" value="Registro" onclick="location.href='./registro.php'" class="boton" > 
+                      </li>
+
+                      <li>
+                        <input type="button" value="Recuperar contrasena" onclick="location.href='./recuperarContrasena.php'" class="boton">  
+                      </li>
+                      
+                      <li>
+                        <input type="button" value="Perfil" onclick="location.href='./profile.php'" class="boton" >   
+                      </li>
+                
+                      <li>
+                        <input type="button" value="Galeria" onclick="location.href='./categorias.html'" class="boton">  
+                      </li>
+
+                      <li>
+                        <input type="button" value="Subir imagen" onclick="location.href='./upload.php'" class="boton">  
+                      </li>
+
+                      <li>
+                        <input type="button" value="Lista Participantes" onclick="location.href='./lista_participantes.php'" class="boton">  
+                      </li>
+
+                      <li>
+                        <input type="button" value="Log out" onclick="location.href='./logout.php'" class="boton">  
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </section>
+         <!-- menu hamburguesa -->
+
+    <!--Parte baja-->
+    <footer>
+        <ul class="footer-text">
+        <li class="text-Footer"><a class="link-footer" href="#">Informacion |</a></li>
+        <li class="text-Footer"><a class="link-footer" href="#">Contactenos |</a></li>
+        <li class="text-Footer"><a class="link-footer" href="#">Privacidad</a></li>
+        </ul>
+
+        <a href="#"><img class="logo-down" src="img/logo.webp" alt="seeandshoot"></a>
+
+            <ul class="button-social-media">
+            <li class="bottom-nav-item"><a class="footer-social-media" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="bottom-nav-item"><a class="footer-social-media" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="bottom-nav-item"><a class="footer-social-media" href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+    </footer>
+
+    <script src="js/menu.js"></script>
+
+</body>
+</html>

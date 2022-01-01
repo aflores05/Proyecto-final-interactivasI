@@ -1,0 +1,659 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+    background: #dfd9d4;
+    text-align: center;
+}
+header{
+    width: 100%;
+}
+
+hr{
+    width: 50em;
+    height: 3px;
+    border: none;
+    background: black;
+}
+footer{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+.botonH{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    color: white;
+  }
+
+  .boton{
+    font-size:10px;
+    text-decoration: none;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:black;
+    background:#e3dad5;
+    border: 0em;
+    width:190px;
+    height:30px;
+    text-decoration: underline;
+   }
+
+   .boton:hover{
+    color:white;
+    background: black;
+    text-decoration: none;
+   }  
+  
+  .menu{
+    display: none;
+  
+  }
+  .menu.is-active{
+    display:block;
+  
+  }
+
+/*
+CLASSES
+*/
+
+/* NAV */
+.top-bar{
+    width: 100%;
+    padding: 1.5em 0 3em;
+    background: #F7F7F7;
+}
+.logo{
+    float: left;
+    margin: -.9em 0 0 3em;
+}
+.top-nav{
+    margin: 0 1.4em;
+    padding: 0;
+    float: right;
+}
+.top-nav-item{
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 1.1em;
+}
+.top-nav-link{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: .8em;
+}
+.top-nav-link:hover{
+    border-bottom: .2em solid #000000;
+}
+.intro-title{
+    display: block;
+    padding: 1em 1em;
+    margin: 2em 19em;
+    color:#fff;
+    background: #000000;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+
+/*imagenes*/
+.pictures{
+    margin: 1em;
+    padding: 1em;
+}
+.fotos{
+    margin: 0em;
+    padding: 0em;
+    background: #e3dad5;
+}
+
+.row{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+    margin: 0 1em;
+}
+.container-photo{
+    padding: 0.1em 1em;
+    margin: 1em 1em;
+    background: white;
+}
+.photo{
+    width: 275px;
+    height: 225px;
+    object-fit: contain;
+}
+.info{
+    padding: 0;
+    margin: .5em 0 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.text-nav{
+    top: 1378px;
+    left: -5px;
+    margin: 0 32.5em;
+    padding: 0;
+}
+.bottom-nav{
+    top: 1498px;
+    left: -5px;
+    padding: 0;
+    margin: 0 38.8em 4em;
+}
+.bottom-nav-text{
+    display: inline-block;
+    margin: 3em 1.5em;
+    font-size: 1.2em;
+}
+.bottom-nav-item{
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 1.8em;
+}
+.footer-link{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 350px) and (max-width: 600px) {
+    .top-bar{
+        position: relative;
+        padding: 3em 0 .5em;
+        z-index: 1;
+    }
+
+    .logo{
+        position: relative;
+        margin: -2.2em 0.5em;
+        left: 8em;
+    }
+
+    .logo-img{
+        height: 2em;
+    }
+
+    .top-nav{
+        opacity: 0%;
+        margin: -22em;
+    }
+
+    .intro-title{
+        position: relative;
+        padding: 0.5em;
+        margin: 0;
+        float: left;
+        font-size: 0.6em;
+        left: 1em;
+        top: 1em;
+    }
+
+    .row{
+        width: 100%;
+        margin: 3em 0em;
+    }
+    .col{
+        width: 50%;
+        float: left;
+    }
+
+
+
+    /* imagenes inicio */
+    .secondary-photos-left{
+        position: relative;
+        left: 2em;
+        width: 12em;
+        height: 12em;
+    }
+    
+    .secondary-photos-center{
+        position: relative;
+        left: 1em;
+        top: 0em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    .secondary-photos-rigth{
+        position: relative;
+        left: 1em;
+        top: -0.3em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    .third-photos-left{
+        position: relative;
+        top: 1em;
+        left: 2em;
+        width: 12em;
+        height: 12em;
+    }
+    
+    .third-photos-center{
+        position: relative;
+        top: 1em;
+        left: 1em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    .third-photos-rigth{
+        position: relative;
+        top: 0.6em;
+        left: 1em;
+        width: 7em;
+        height: 6.1em;
+    }
+    
+    .fourth-photos-left{
+        position: relative;
+        top: -1em;
+        left: 2em;
+        width: 12em;
+        height: 12em;
+    }
+    
+    .fourth-photos-center{
+        position: relative;
+        top: -1em;
+        left: 1em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    .fourth-photos-rigth{
+        position: relative;
+        top: -1.3em;
+        left: 1em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    .fifth-photos-left{
+        position: relative;
+        top: 0em;
+        left: 2em;
+        width: 12em;
+        height: 12em;
+    }
+    
+    .fifth-photos-center{
+        position: relative;
+        top: 0em;
+        left: 1em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    .fifth-photos-rigth{
+        position: relative;
+        top: -0.3em;
+        left: 1em;
+        width: 7em;
+        height: 6em;
+    }
+    
+    /* imagenes fin */
+
+    hr{
+        width: 10em;
+        height: 2px;
+    }
+
+
+
+    footer{
+        padding: 1em 0em;
+        background-color: white;
+    }
+    .bottom-nav-text{
+        display: inline-block;
+        margin: 0em;
+        font-size: 1em;
+    }
+    .footer-link{   
+        margin: 0em 1em;
+    }
+
+    .bottom-nav-item{
+        margin: 0em;
+        font-size: 1em;
+    }
+
+    .text-nav{
+        position: relative;
+        margin: 0em;
+        padding: 0em;
+        top: -1em;
+        left: 0.5em;
+        font-size: 0.6em;
+    }
+    .bottom-nav{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 0em;
+        left: 0.5em;
+    }
+
+
+    
+.naturaleza{
+    position: relative;
+    margin: 0;
+    top: -0.5em;
+    left: 3em;
+    font-size: 0.7em;
+}
+.personas{
+    position: relative;
+    margin: 0;
+    top: 1em;
+    left: 3em;
+    font-size: 0.7em;
+}
+.paisajes{
+    position: relative;
+    margin: 0;
+    top: -2em;
+    left: 3em;
+    font-size: 0.7em;
+}
+.area{
+    position: relative;
+    margin: 0;
+    top: -0.7em;
+    left: 3em;
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+    .mob-menu{
+        opacity: 0%;
+        display: block;
+        color: #fff;
+        font-size: 1.5em;
+        position: absolute;
+        top: .6em;
+        left: .5em;
+    }
+    .mob-close{
+        opacity: 0%;
+        display: block;
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 650px) and  (max-width: 991.98px) {
+    .top-bar{
+        position: relative;
+        padding: 6em 0 .5em;
+        z-index: 1;
+    }
+
+    .logo{
+        position: relative;
+        margin: -2.2em 0.5em;
+        left: 8em;
+    }
+
+    .logo-img{
+        position: relative;
+        top: -2.5em;
+        left: 7.6em;
+        height: 4em;
+    }
+
+    .top-nav{
+        opacity: 0%;
+        margin: -22em;
+    }
+
+    .intro-title{
+        position: absolute;
+        padding: 0.5em;
+        margin: 0;
+        float: left;
+        font-size: 1.6em;
+        left: 10.5em;
+        top: 5.5em;
+    }
+
+    .row{
+        width: 100%;
+        margin: 3em 0em;
+    }
+    .col{
+        width: 50%;
+        float: left;
+    }
+
+
+
+    /* imagenes inicio */
+    .secondary-photos-left{
+        position: relative;
+        top: 95px;
+        left: 7.3em;
+        width: 31em;
+        height: 23em;
+    }
+    
+    .secondary-photos-center{
+        position: relative;
+        left: -2em;
+        top: 5.9em;
+        width: 16.3em;
+        height: 12em;
+    }
+    
+    .secondary-photos-rigth{
+        position: relative;
+        left: -2em;
+        top: 5.5em;
+        width: 16.3em;
+        height: 11em;
+    }
+    
+    .third-photos-left{
+        position: relative;
+        top: 11em;
+        left: 7.3em;
+        width: 31em;
+        height: 23em;
+    }
+    
+    .third-photos-center{
+        position: relative;
+        top: 11em;
+        left: -2em;
+        width: 16.3em;
+        height: 12em;
+    }
+    
+    .third-photos-rigth{
+        position: relative;
+        top: 10.7em;
+        left: -2em;
+        width: 16.3em;
+        height: 11em;
+    }
+    
+    .fourth-photos-left{
+        position: relative;
+        top: 13.5em;
+        left: 7.3em;
+        width: 31em;
+        height: 23em;
+    }
+    
+    .fourth-photos-center{
+        position: relative;
+        top: 13.49em;
+        left: -2em;
+        width: 16.3em;
+        height: 12em;
+    }
+    .fourth-photos-rigth{
+        position: relative;
+        top: 13.1em;
+        left: -2em;
+        width: 16.3em;
+        height: 11em;
+    }
+    
+    .fifth-photos-left{
+        position: relative;
+        top: 20em;
+        left: 7.3em;
+        width: 31em;
+        height: 23em;
+    }
+    
+    .fifth-photos-center{
+        position: relative;
+        top: 20em;
+        left: -2em;
+        width: 16.3em;
+        height: 12em;
+    }
+    
+    .fifth-photos-rigth{
+        position: relative;
+        top: 19.55em;
+        left: -2em;
+        width: 16.3em;
+        height: 11em;
+    }
+    
+    /* imagenes fin */
+
+    hr{
+        position: relative;
+        top: 22em;
+        left: -12em;
+        width: 10em;
+        height: 2px;
+    }
+
+
+
+    footer{
+        padding: 0;
+        margin: 0;
+    }
+    .bottom-nav-text{
+        display: inline-block;
+        margin: 0em;
+        font-size: 2em;
+    }
+    .footer-link{   
+        margin: 0em 1em;
+    }
+
+    .bottom-nav-item{
+        margin: 0em;
+        font-size: 2em;
+    }
+
+    .text-nav{
+        position: relative;
+        margin: 0em;
+        padding: 0em;
+        top: 39em;
+        left: 9.5em;
+        font-size: 0.6em;
+    }
+    .bottom-nav{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 25em;
+        left: 12.5em;
+    }
+
+
+    
+.naturaleza{
+    position: relative;
+    margin: 0;
+    top: 4.5em;
+    left: 4.9em;
+    font-size: 1.5em;
+}
+.personas{
+    position: relative;
+    margin: 0;
+    top: 8em;
+    left: 4.9em;
+    font-size: 1.5em;
+}
+.paisajes{
+    position: relative;
+    margin: 0;
+    top: 10em;
+    left: 4.9em;
+    font-size: 1.5em;
+}
+.area{
+    position: relative;
+    margin: 0;
+    top: 14.5em;
+    left: 5em;
+    font-size: 1.5em;
+}
+    .mob-menu{
+        opacity: 0%;
+        display: block;
+        color: #fff;
+        font-size: 1.5em;
+        position: absolute;
+        top: .6em;
+        left: .5em;
+    }
+    .mob-close{
+        opacity: 0%;
+        display: block;
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+    }
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
